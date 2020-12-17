@@ -28,9 +28,11 @@ int main() {
 	vector<double> sequence;
 	double number{0.0}; 
 
-	for (int i = 0; i < n ; i++) {
+	int i{0};
+	while(i!=n) {
 		cin >> number;
 		sequence.push_back(number);
+		i++;
 	}
 	
 	cout << findMean(sequence); 
