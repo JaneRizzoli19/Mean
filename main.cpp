@@ -4,7 +4,12 @@
 using namespace std;
 
 // Program which takes number of values and a sequence from the user and returns the mean
-// Eg:3 11.2 1.1 123.2
+/*
+Eg of sample input:
+3 1.1 2.2 3.3
+The output for the above will be:
+2.2 
+*/
 // n is the number of values in the sequence and sequence is the vector containing the values
 
 double findMean(vector<double> v) {
