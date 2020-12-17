@@ -13,7 +13,7 @@ The output for the above will be:
 // n is the number of values in the sequence and sequence is the vector containing the values
 
 double findMean(vector<double> v) {
-	double sum{0.0};
+	double sum = 0.0;
 	for (int i = 0; i < v.size() ; i++) {
 		sum += v.at(i);
 	}
@@ -22,13 +22,13 @@ double findMean(vector<double> v) {
 
 int main() {
 
-	int n{0};
+	int n = 0;
 	cin >> n;
 	
 	vector<double> sequence;
-	double number{0.0}; 
+	double number = 0.0; 
 
-	int i{0};
+	int i = 0;
 	while(i!=n) {
 		cin >> number;
 		sequence.push_back(number);
